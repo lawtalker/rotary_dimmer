@@ -103,10 +103,10 @@ void loop(){
    * to 100) and a white value of Yn, we calculate Y (our duty cycle) as:
    * 
    *   for L* <= 8, 
-   *     Y = L* / (8 / (6 / 29)^3 * Yn
+   *     Y = L* / (8 / (6 / 29)^3) * Yn
    *
    *   for L* > 8, 
-   *     Y = (L* + 16) / 116 * Yn
+   *     Y = ((L* + 16) / 116)^3 * Yn
    *
    * 20 dimming values allows all dimming values to readily be reached
    * in a single "spin" with my rotary encoder.
