@@ -30,8 +30,8 @@
  * used, or if different pins are used. 
  *
  * I have a 12V power supply for my lights.  This is also used to power 
- * Nano.  My strip lights are a single color, so I need one output pin 
- * to control them, which I do using an N-channel MOSFET.
+ * the Nano.  My strip lights are a single color, so I need one output  
+ * pin to control them, which I do using an N-channel MOSFET.
  *
  * Connections:
  *  > 12V+ is connected to VIN, and to V+ on the strip lights.
