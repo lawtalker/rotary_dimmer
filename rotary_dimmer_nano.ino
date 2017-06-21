@@ -29,20 +29,20 @@
  * carefully reviewed and adjusted as necessary if a different board is 
  * used, or if different pins are used. 
  *
- * I have a 12V power supply to for my lights.  This is also used to power 
- * the Nano.  My strip lights are a single color, so I need one output pin 
+ * I have a 12V power supply for my lights.  This is also used to power 
+ * Nano.  My strip lights are a single color, so I need one output pin 
  * to control them, which I do using an N-channel MOSFET.
  *
  * Connections:
  *  > 12V+ is connected to VIN, and to V+ on the strip lights.
  *  > GND on the power supply is connected to ground on the Nano.
  *  > My rotary encoder is connected to D2 & D3 on the Nano. 
- *  > The push button on the encoder is connected to D4 on the Nano
- *  > D5 on the Nano is connected to the gate pin on an N-channel MOSFET.
+ *  > The pushbutton on the encoder is connected to D4 on the Nano.
+ *  > D5 on the Nano is connected to gate on an N-channel MOSFET.
  *  > Drain on the MOSFET is connected to V- on the strip lights.
  *  > Source on the MOSFET is connected to ground on the Nano/power supply.
  *
- * I disabled the power LED on the nano (by breaking it with a knife) 
+ * I disabled the power LED on the Nano (by breaking it with a knife) 
  * because my enclosure is not 100% lightproof, and the power LED is 
  * quite bright. 
  *
